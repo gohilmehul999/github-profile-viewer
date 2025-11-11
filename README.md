@@ -1,16 +1,37 @@
-# React + Vite
+# github-profile-viewer
+🧠 Description:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The GitHub Profile Viewer is a modern React web application that allows users to search and view detailed information about any GitHub user profile using the GitHub API.
+Built with React, Tailwind CSS, and Axios, the app provides a clean, responsive, and visually appealing interface to explore GitHub profiles, repositories, and followers in real time.
 
-Currently, two official plugins are available:
+⚙️ Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Search by Username: Instantly fetch any GitHub user profile.
 
-## React Compiler
+👤 User Details: Display name, bio, avatar, location, followers, following, and public repos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 Repositories List: View repository names, stars, and links to GitHub.
 
-## Expanding the ESLint configuration
+⚡ API Integration: Uses the GitHub REST API for real-time data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Tailwind CSS UI: Fully responsive and beautifully styled interface.
+
+🌙 Light/Dark Mode (optional): Toggle themes for better UX.
+
+🛠️ Tech Stack:
+
+Frontend: React.js (Vite or CRA)
+
+Styling: Tailwind CSS
+
+API: GitHub REST API (via Axios or Fetch)
+
+Icons: React Icons or Lucide Icons
+
+🚀 How It Works:
+
+The user enters a GitHub username in the search bar.
+
+It dynamically displays the user’s profile information and repositories.
+
+Responsive design ensures it works on desktop and mobile devices.
