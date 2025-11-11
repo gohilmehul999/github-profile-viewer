@@ -32,9 +32,6 @@ Icons: React Icons or Lucide Icons
 
 The user enters a GitHub username in the search bar.
 
-The app sends a request to the GitHub API endpoint:
-https://api.github.com/users/{username}
-
 It dynamically displays the user’s profile information and repositories.
 
 Responsive design ensures it works on desktop and mobile devices.
